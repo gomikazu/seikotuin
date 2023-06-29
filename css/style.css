@@ -1,0 +1,131 @@
+#slider {
+    width: 100%;
+    height: 100vh;/*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
+    z-index: 1; 
+    position: relative; 
+ 
+}
+
+header{
+    /* position: absolute; */
+    z-index: 2;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:#EEFFFF;
+    height: 100px;
+  }
+.logo{
+    width: 100px;
+    height: 100px;
+    
+}
+
+.page-title{
+    margin-left: 250px;
+    margin-top: 30px;
+}
+
+
+#page-link{
+    display: flex;
+    /* position: relative; */
+    list-style: none;
+    margin-right: 100px;
+    margin-top: 40px;
+
+    
+}
+#page-link li{
+    margin-left: 36px;
+}
+
+#page-link a{
+    font-size: 25px;
+    color:#432;
+    font-family: 'Tilt Prism', cursive;
+}
+
+#page-link a:hover{
+    color:rgb(8, 8, 8);
+}
+
+.area{
+    text-align: center;
+    font-family: 'Tilt Prism', cursive;
+
+}
+
+/*アクセス*/
+iframe{
+    margin-right: 150px;
+    margin-top: 100px;
+}
+   
+
+.access-1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+}
+
+.access-1 table{
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+tr {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+#ACCESS{
+    background-color:#EEFFFF;
+}
+
+
+
+/*プライス*/
+#PRICE{
+    background-color:#EEFFFF;
+ }
+ /*メニュー*/
+ #MENU{
+    background-color:#EEFFFF;
+    margin-bottom: 50px;
+ }
+ #gazou{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr  ;
+    margin-top:5%;
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover; 
+}
+
+
+  
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+    
