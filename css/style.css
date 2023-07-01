@@ -1,3 +1,4 @@
+
 #slider {
     width: 100%;
     height: 100vh;/*スライダー全体の縦幅を画面の高さいっぱい（100vh）にする*/
@@ -6,9 +7,18 @@
  
 }
 
+
+    
+
 header{
     /* position: absolute; */
     z-index: 2;
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  
 }
 .page-header{
     display: flex;
@@ -17,7 +27,6 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-    background-color:#EEFFFF;
     height: 100px;
   }
 .logo{
@@ -38,9 +47,10 @@ header{
     list-style: none;
     margin-right: 100px;
     margin-top: 40px;
+}
 
     
-}
+
 #page-link li{
     margin-left: 36px;
 }
@@ -86,18 +96,15 @@ tr {
     font-size: 18px;
   }
 #ACCESS{
-    background-color:#EEFFFF;
 }
 
 
 
 /*プライス*/
 #PRICE{
-    background-color:#EEFFFF;
  }
  /*メニュー*/
  #MENU{
-    background-color:#EEFFFF;
     margin-bottom: 50px;
  }
  #gazou{
@@ -108,10 +115,35 @@ tr {
 
 
 img{
-    width: 200px;
-    height: 200px;
-    object-fit: cover; 
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50px;
 }
+ 
+   
+
+.gazou1{
+    padding: 5px;
+    border: 9px solid green;
+}
+.gazou2{
+    padding: 5px;
+    border: 9px solid green;
+}
+.gazou3{
+    padding: 5px;
+    border: 9px solid green;
+}
+
+#gazou p{
+    font-size:35px;
+}
+body{
+    background-image: url(../images/huukei2.jpg);
+}
+
+
 
 
   
